@@ -1,0 +1,301 @@
+
+.container {
+    margin: 0px auto;
+    background-image: url(../img/background-body.png);
+    overflow: hidden;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.header {
+    padding-left: 81px;
+    padding-right: 75px;
+    height: 56px;
+    margin: 0 auto;
+    background: rgba( 0, 0, 0, 0.5);
+}
+.header-name {
+    float: left;
+    margin-top: 22px;
+}
+.header-name-journey {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.header-name-journey:hover {
+    color: #3cb878;
+}
+.header-icon-and-text {
+    float: right;
+}
+.header-icon {
+    float: left;
+    margin-top: 19px;
+    margin-right: 25px;
+    margin-left: 28px;
+}
+.header-icon::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 19px;
+    border: 1px solid #32302e;
+    margin-left: 25px;
+}
+.header-sprite1 {
+    width: 19px; height: 19px;
+    display: inline-block;
+    background: url('../sprite/sprite.png') -10px -50px;
+    margin-right: 28px;
+}
+.header-sprite1:hover {
+    width: 19px; height: 19px;
+    display: inline-block;
+    background: url('../sprite_hover/sprite_hover.png') -10px -50px;
+}
+.header-sprite2 {
+    width: 28px; height: 20px;
+    display: inline-block;
+    background: url('../sprite/sprite.png') -10px -10px;
+}
+.header-sprite2:hover {
+    width: 28px; height: 20px;
+    display: inline-block;
+    background: url('../sprite_hover/sprite_hover.png') -10px -10px;
+}
+.header-sprite3 {
+    width: 20px; height: 20px;
+    display: inline-block;
+    background: url('../sprite/sprite.png') -58px -10px;
+    margin-left: 28px;
+}
+.header-sprite3:hover {
+    width: 20px; height: 20px;
+    display: inline-block;
+    background: url('../sprite_hover/sprite_hover.png') -58px -10px;
+}
+.header-text {
+    float: right;
+    margin-top: 23px;
+}
+.head-text-welcome {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+.green-text {
+    color: #3cb878;
+}
+.green-text:hover {
+    text-decoration: underline;
+}
+.main-content {
+    position: absolute;
+    width: 444px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 28px));
+    background-color: #ffffff;
+    border-radius: 10px ;
+}
+.main-content-logo {
+    margin-bottom: 15px;
+}
+.main-content-logo-text::before {
+    content: "";
+    display: inline-block;
+    margin-right: 42px;
+    width: 18px;
+    height: 18px;
+    background-color: #3cb878;
+}
+.main-content-logo-text {
+    display: inline-block;
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    color: #434343;
+    margin-left: 0px;
+    padding-top: 29px;
+    margin-right: 205px;
+}
+.main-content-social {
+    width: 322px;
+    height: 46px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-content-social-facebook {
+    float: left;
+    width: 157px;
+    height: 46px;
+    background-color: #264b96;
+    border-radius: 5px;
+}
+.main-content-social-facebook::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 28px;
+    border: 1px solid #224387;
+    margin-top: 9px;
+}
+.social-facebook-icon {
+    display: inline-block;
+    float: left;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+.social-facebook-icon-text {
+    display: inline-block;
+    float: right;
+    margin-top: 16px;
+    margin-right: 17px;
+    font-family: "Verdana", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.main-content-social-google {
+    float: right;
+    width: 157px;
+    height: 46px;
+    background-color: #c3412c;
+    border-radius: 5px;
+}
+.main-content-social-google::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 28px;
+    border: 1px solid #af3a28;
+    margin-top: 9px;
+}
+.social-google-icon {
+    display: inline-block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+.social-google-text {
+    display: inline-block;
+    float: right;
+    font-family: "Verdana", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 16px;
+    margin-right: 30px;
+}
+.main-content-line {
+
+    width: 322px;
+    height: 8px;
+    margin: 0 auto;
+    padding-top: 37px;
+
+    text-align: center;
+}
+.main-content-line1 {
+    float: left;
+}
+.main-content-line-text {
+    position: absolute;
+    left: 215px;
+    top: 142px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    color: rgba(132, 132, 132, 255);
+}
+.main-content-line2 {
+    float: right;
+}
+
+.clearfix::after {
+     content: "";
+ }
+
+.main-content-form {
+    width: 322px;
+    margin: 0 auto;
+    padding-top: 21px;
+}
+.content-form {
+    width: 304px;
+    height: 46px;
+    padding-left: 18px;
+    margin-bottom: 9px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    font-family:'Verdana', sans-serif;
+    font-size: 14px;
+    color: rgba(190, 190, 190, 255);
+}
+.content-form:focus {
+    font-family:'Verdana', sans-serif;
+    font-size: 14px;
+    color: rgba(67, 67, 67, 255);
+    box-shadow: 2px 4px #dbdbdb;
+}
+input[type='checkbox'] {
+    display: none;
+}
+label::before {
+    content:"";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+input[type='checkbox']:checked  + label::before {
+    background-image: url("../img/checkbox.png");
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+}
+.content-form-checkbox-text {
+    font-family: "Verdana", sans-serif;
+    font-size: 14px;
+    color: rgba(67, 67, 67, 255);
+}
+.content-form-checkbox-text-agree {
+    margin-right: 5px;
+}
+.content-form-submit {
+    width: 322px;
+    height: 46px;
+    margin-top: 18px;
+    font-family:'Verdana', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #329a65;
+    border:0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#buttonForChange {
+    margin-top: 35px;
+    margin-left: 35px;
+    font-family:'Verdana', sans-serif;
+    font-size: 10px;
+    color: antiquewhite;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #329a65;
+    cursor: pointer;
+}
+#buttonForChange:hover{
+    background-color: darkgreen;
+    color: #ffffff;
+}
+

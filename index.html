@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form and Local Storage</title>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="header clearfix">
+
+        <div class="header-name">
+            <a href="#" class="header-name-journey">JOURNEY</a>
+        </div>
+
+    <div class="header-icon-and-text clearfix">
+        <div class="header-icon">
+            <a href="#" class="header-sprite1"></a>
+            <a href="#" class="header-sprite2"></a>
+            <a href="#" class="header-sprite3"></a>
+        </div>
+        <div class="header-text">
+            <p class="head-text-welcome">
+                Welcome, <a href="#" class="green-text">            Log In
+            </a> or <a href="#" class="green-text">Sign Up
+            </a>
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <div id="buttonForChange">Change layout <br>(example of storage locale)</div>
+
+    <div class="main-content">
+        <div class="main-content-logo"><span class="main-content-logo-text">Sign Up</span><span class="green-text">Log In</span>
+        </div>
+        <div class="main-content-social clearfix">
+           <div class="main-content-social-facebook clearfix"><img src="social-network/fasebook.png" alt="facebook" class="social-facebook-icon"><span class="social-facebook-icon-text">Facebook</span>
+           </div>
+            <div class="main-content-social-google clearfix"><img src="social-network/google.png" alt="google" class="social-google-icon"><span class="social-google-text">Google</span>
+            </div>
+        </div>
+        <div class="main-content-line clearfix"><img class="main-content-line1" src="img/line@1X.png" alt="line"><span class="main-content-line-text">or</span><img class="main-content-line2" src="img/line@1X.png" alt="line">
+        </div>
+        <form class="main-content-form" action="#">
+          <fieldset class="content-form-input"><input class="content-form content-form-name" type="text" value="First Name"><input class="content-form" type="text" value="Last Name"><input class="content-form" type="email" value="Email"><input class="content-form" type="text" value="Choose Password"><input class="content-form" type="text" value="Confirm Password">
+          </fieldset>
+        <div class="checkbox">
+            <input id="content-form-checkbox" type="checkbox"><label for="content-form-checkbox" class="content-form-checkbox-text"><span class="content-form-checkbox-text-agree">Agree our</span><span class="green-text">Terms & Conditions</span></label>
+        </div>
+            <input class="content-form-submit" type="submit" value="Create Account">
+        </form>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
